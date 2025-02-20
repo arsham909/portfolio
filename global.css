@@ -1,0 +1,19 @@
+body{
+    background-color: var(--background);
+
+    font-family: 'Fire-Code', monospace;
+    margin: 0;
+}
+
+h2, h1{
+
+}
+
+.About , .skill , .contact-me{
+    max-width: 720px;
+    margin: 0 auto;
+}
+
+ul{
+    list-style-type: none;
+}
