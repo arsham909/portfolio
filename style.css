@@ -8,7 +8,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 720px;
+    max-width: 1020px;
     margin: 0 auto;
     
 }
@@ -35,7 +35,7 @@ header{
 
 .about-content{
     display: flex;
-    max-width: 720px;
+    max-width: 1020px;
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
@@ -73,7 +73,7 @@ main{
     margin: 20px;
 }
 .Projects{
-    max-width: 720px;
+    max-width: 1020px;
     margin: 0 auto;
 }
 .first-list{
