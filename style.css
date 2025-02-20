@@ -4,14 +4,16 @@ header{
     padding-bottom: 8px;
 }
 
+
 .nav-bar{
     display: flex;
     justify-content: space-between;
     align-items: center;
     max-width: 1020px;
-    margin: 0 auto;
+    margin: 0 auto 10px auto;
     
 }
+
 .nav-options{
     display: flex;
 }
@@ -33,20 +35,25 @@ header{
     text-decoration: none;
 }
 
+
+.about-pic{
+    margin: 2em;
+}
 .about-content{
     display: flex;
     max-width: 1020px;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    margin: 0 auto 150px auto;
 }
 
 .about-praghraph{
     margin: 10px;
-    padding: 15px , 10px;
+    padding: 5px , 5px;
+    line-height: 1.5em;
     color: var(--primary);
     text-align: left;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 main{
@@ -71,11 +78,13 @@ main{
     align-items: center;
     justify-content: space-between;
     margin: 20px;
+    color: var(--primary);
 }
 .Projects{
     max-width: 1020px;
     margin: 0 auto;
 }
+
 .first-list{
     display: flex;
     margin: 0;
@@ -102,4 +111,12 @@ main{
 
 .contact-me-list{
     text-decoration: none;
+}
+.parghraph-about{
+    font-size: 24px;
+}
+.list-about, .parghraph-about , .contact-me-paragraph{
+    color: var(--white);
+    font-size: 1.5em;
+    line-height: 1.25em;
 }

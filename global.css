@@ -5,9 +5,7 @@ body{
     margin: 0;
 }
 
-h2, h1{
 
-}
 
 .About , .skill , .contact-me{
     max-width: 1020px;
@@ -16,4 +14,22 @@ h2, h1{
 
 ul{
     list-style-type: none;
+}
+
+a:link{
+    text-decoration: none;
+    color: var(--primary);
+}
+a:visited{
+    color: var(--white);
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: blueviolet;
+}
+h2, h3{
+    color: var(--primary);
+    font-size: 1.75em;
 }
